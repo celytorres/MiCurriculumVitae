@@ -5,14 +5,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae</title>
-    <link rel="stylesheet" type="text/css" href="CSS/estilos.css" />
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
 </head>
 
 <body>
-    <h1>Hola mundo
+    <button type="button" onclick="document.getElementById('mas_info').style.display='block'">Mas informacion</button>
+    <button type="button" onclick="document.getElementById('mas_info').style.display='none'">Menos informacion</button>
+    <div class="principal">
+        <img class="foto_carnet" src="imagen.jpg" alt="foto 4x4" style="float:right">
+        <br><br>
+        <h2 class="titulo"> Celina Celeste Torres</h2>
+        <br><br><br><br><br><br>
 
-    </h1>
+        <div class="recuadro">
+            <legend>Datos Personales</legend>
+            <ul>
+                <li>Direccion: Sargenton Cabral 2727 Las Heras</li>
+                <li>Fecha de nacimiento: 16/12/93</li>
+                <li>DNI: 37521377</li>
+                <li>Genero: Mujer</li>
+                <li>Altura: 1.70m</li>
+            </ul>
+        </div>
+        <br>
+                    <div class="informacion_adicional" id="mas_info" style="display:none">
+                                    <div class="recuadro">
+                                        <legend>Contacto</legend>
+                                        <ul>
+                                            <li>Numero de teléfono: 2613741441</li>
+
+                                            <li>Mail: cely.torres1z@gmail.com</li>
+                                        </ul>
+                                    </div>
+                                    <br>
+                                    <div class="recuadro">
+                                        <legend>Fromación Académica</legend>
+                                        <ul>
+                                            <li>“BACHILLER EN ECONOMÍA Y GESTIÓN DE LAS ORGANIZACIONES CON
+                                                ORIENTACION EN INFORMATICA” | COLEGIO ADOLFO PÉREZ ESQUIVEL
+                                                (2007- 2011) (secundario completo)</li>
+                                            <br>
+                                            <li>CURSO ACOMPAÑANTE TERAPÉUTICO| UNIVERSIDAD FASTA. FACULTAD DE
+                                                CIENCIAS MÉDICAS (2020- 2021) COMPLETO.</li>
+                                            <br>
+                                            <li>PROFESORADO DE LENGUA Y LITERATURA | TERCIARIO TOMAS GODOY
+                                                CRUZ (2015-EN CURSO)
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <br>
+                                    <div class="recuadro">
+                                        <legend>Experiencia Laboral</legend>
+                                        <ul>
+                                            <li>ACOMPAÑAMIENTO TERAPÉUTICO: PIUQUEN DYNAMICA Caso:
+                                                Diagnóstico injuria cerebral con deterioro cognitivo (2022-actualidad) REF:
+                                                2615520782 </li>
+                                            <br>
+                                            <li>ACOMPAÑAMIENTO TERAPÉUTICO VINCULAT Caso: Diagnostico Trastorno de Conducta (2023-Actualidad)
+                                            </li>
+                                            <br>
+                                            <li>CUIDADO A PERSONA DE TERCERA EDAD: Cuidado a mujer de 87 años. (2021-2022) . REF: 2617528292
+                                            </li>
+                                            <br>
+                                            <li>ATENCION AL PÚBLICO DE MOSTRADOR: Desempeño de atención al público con
+                                                servicio de ventas. (2020-2022) </li>
+                                        </ul>
+                                    </div>
+                                    <br>
+                                    <div class="recuadro">
+                                        <legend>Aptitudes</legend>
+                                        <ul>
+                                            <li>Empatico, paciente, flexible y responsable</li>
+                                            <li>Facilidad de comunicación</li>
+                                            <li>Capacidad de organización</li>
+                                            <li>Buen manejo de las redes sociales</li>
+                                            <li>Trabajo siempre a favor del paciente</li>
+                                            <li>Atención a los detalles</li>
+                                        </ul>
+                                    </div>
+                        </div> 
+    </div>
 </body>
 
 </html>
